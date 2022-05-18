@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+        <title>AI Video Surveillance</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    
+      <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+      
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="metaverse-meaning-1280x720.jpg">
+        <h1 id="heading" class="btn btn-info">AI Object Identification</h1>
+        <br>
+        <br>
+        <label id="note" class="btn btn-warning">Type the object you want to find in the text input and show the setting in your camera</label>
+        <br>
+        <input id="object_input" class="input text text-input" type="text" placeholder="The object">
+        <button class="btn btn-success" onclick="start()">Start</button>
+        <br>
+        <br>
+        <div id="status" class="btn btn-danger"></div>
+        <div id="found_not" class="btn btn-success"></div>
+        <script src="main.js"></script>
+    </body>
+</html>

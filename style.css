@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+#heading{
+    font-size:xx-large;
+}
+
+canvas{
+    background-color: green;
+    border: dotted palegreen 3px;
+    box-shadow: 1px 1px 20px blueviolet;
+}
+
+#status, #found_not{
+    bottom:0;
+    margin:0;
+    
+}
